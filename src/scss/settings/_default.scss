@@ -1,0 +1,20 @@
+html,body {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.system-logo {
+  width: 103.5px;
+  height: 24.5px;
+  position: absolute;
+  right: 80px;
+  top: 35px;
+  background-image: url('../img/intergrus.png');
+  background-size: 100% 100%;
+}

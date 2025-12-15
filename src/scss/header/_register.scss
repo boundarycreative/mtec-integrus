@@ -1,0 +1,169 @@
+ 
+ 
+ main[b-5bjcynql35] {
+ height: 100%;
+ background: #006FC7;
+ background: linear-gradient(90deg, rgba(0, 111, 199, 1) 0%, rgba(35, 44, 51, 1) 100%);
+ }
+ 
+ 
+// Top Navigation Btn
+[b-0pnj5rs0lo] .top-menu>button {
+  background: #fff;
+  border-radius: 80px;
+  color: $primary;
+  font-weight: 800;
+  font-size: 30px;
+  vertical-align: top !important;
+  padding: 0px;
+  position: relative;
+  top: 15px;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+
+  span {
+    position: absolute;
+    top: -14px;
+    width: 100%;
+  }
+}
+
+#menu-page[b-0pnj5rs0lo] {
+ 
+  max-width: 95%;
+  margin: auto;
+  
+}
+
+.tab-set.item-register-tabs{
+  li:first-child[b-ivqkdh21xt] {
+  margin-left: 0px;
+  }
+}
+
+
+.tab-set .nav-tabs-body[b-2toz9nxxxi] {
+  background: $bgprimary;
+  border: 0px solid #fff;
+  padding-top:0px;
+  
+  li:first-child[b-ivqkdh21xt] {
+    margin-left:0px;
+  }
+}
+
+.toolbar[b-662ex3megl] {
+  background: $bgsecondary;
+}
+.filter-select[b-rk0jepjqlr] {  background: $bgsecondary;}
+[b-662ex3megl] .toolbar-item {
+  margin-bottom:10px;
+  i {
+    display: none;
+  }
+
+  &.btn {
+    margin-top:10px;
+    font-family: "Zalando Sans", sans-serif;
+    padding: 0px 10px;
+    font-size: 14px;
+    background: #fff;
+    color: $primary;
+ 
+    border:1px solid $primary;
+    padding-block-start: 0px;
+    padding-block-end: 0px;
+ font-weight:400;
+    min-height:30px;
+    height:30px;
+    
+    &:hover{
+      background:$primary;
+      color:$texttertiary;
+    }
+  }
+}
+
+.btn.control[b-rlwqvyjs0e] {
+  margin-top:10px;
+  font-family: "Zalando Sans", sans-serif;
+  padding: 0px 10px;
+  border:1px solid $primary;
+  font-size: 14px;
+  background: #fff;
+  color: $primary;
+  border-color: $primary;
+  line-height:0px;
+  font-weight:400;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  
+  min-height:30px;
+  height:30px;
+  &:before {
+    content: "";
+  }
+}
+
+.layout-select[b-kf9a7fuz6c],
+.filter-select[b-kf9a7fuz6c]{
+  background-color:$bgsecondary;
+}
+.layout-select[b-kf9a7fuz6c]{
+
+}
+.k-splitbar{  background:$bgprimary;}
+[b-kf9a7fuz6c] .grid-detail-splitter .right-panel{
+  background:$bgprimary;  border-top:50px solid #ffff;
+  padding-top:20px;
+}
+
+
+
+// KENDO table-layout: 
+
+.k-grid-content{
+  background: $bggridrow;
+}
+.k-grid,
+.k-grid .k-grid-aria-root{border-color:  $bgsecondary  ; background:$bgsecondary ; border:none;  font-family: "Zalando Sans", sans-serif;
+    text-transform: none;
+font-style: normal;
+font-weight: 800;
+font-variant: normal;
+text-transform: none;}
+ 
+ .k-grid .k-grid-header .k-table th{ background:$bgtertiary !important;}
+ .k-grid .k-grid-header-menu{background:$texttertiary !important; color:$primary; border-radius:5px;}
+ .k-checkbox {background:$texttertiary;}
+ .k-column-title{
+   color:$bgtertiary;
+   background:$bgtertiary;
+ }
+ .k-grid .k-grid-header-menu{
+   background:$bggridrow ;
+ }
+[b-hziul159v2] .left-panel, [b-hziul159v2] .right-panel{background:$bgsecondary ;}
+.k-grid .k-grid-header .k-table th{background:$bggridrow ;}
+.k-grid .k-table-row.k-table-row{ .k-table-td{background:#f2fafe; color:$textprimary; font-weight: 400; font-size:12px;}}
+.k-grid .k-table-row.k-table-alt-row{ .k-table-td{background:$bgsecondary; color:$textprimary; font-weight: 400; font-size:12px;}}
+
+
+// INFO Panel
+
+.nothing-to-see[b-x7rpotrwpn] {
+  background:$bggridrow ;
+  p{
+    font-family: "Zalando Sans", sans-serif;
+        text-transform: none;
+    font-style: normal;
+    font-weight: 800;
+    font-variant: normal;
+    text-transform: none;
+    padding:20px;
+    color:$primary;
+  }
+}

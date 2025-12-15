@@ -1,0 +1,6 @@
+# REGISTER
+// Added div into header
+<div class="system-logo"></div>
+// Added span around dots to position them in middle.
+<button class="btn control expand-filter" b-0pnj5rs0lo=""><i class="" b-0pnj5rs0lo=""></i><span>...</span></button>
+

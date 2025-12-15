@@ -1,0 +1,36 @@
+:root {
+  --primary: #009df2;     
+  --secondary: #f1c40f;           // No used currently
+  --bgprimary: #f0f0f0;            // Light grey
+  --bgsecondary: #fff;             // Light white
+  --bgtertiary: var(--primary);     
+  --bggridrow: #f2fafe;          // Light blue
+  --textprimary:#666666;          // Grey Text
+  --textsecondary: var(--primary);  // Blue Text
+  --texttertiary: #9cdcff;  // Blue Text
+}
+
+html.theme-dark {
+--primary: #001b35;     
+  --secondary: #f1c40f;           // No used currently
+ --bgprimary: #23517e;            // Light grey
+ --bgsecondary: #001b35;             // Light white
+ --bgtertiary: #fff; 
+ --bggridrow: #23517e;          // Light blue
+  --textprimary:#666666;          // Grey Text
+  --textsecondary: #009df2;  // Blue Text
+  --texttertiary: #fff;  // Blue Text
+}
+
+ 
+
+// Colors
+$primary: var(--primary);
+$secondary: var(--secondary);
+$bgprimary :var(--bgprimary);
+$bgsecondary:var(--bgsecondary);
+$bgtertiary:var(--bgtertiary);
+$bggridrow:var(--bggridrow);
+$textprimary :var(--textprimary);
+$textsecondary:var(--textsecondary);
+$texttertiary:var(--texttertiary); 

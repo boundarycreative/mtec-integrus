@@ -1,0 +1,258 @@
+:root {
+  --primary: #009df2;
+  --secondary: #f1c40f;
+  --bgprimary: #f0f0f0;
+  --bgsecondary: #fff;
+  --bgtertiary: var(--primary);
+  --bggridrow: #f2fafe;
+  --textprimary:#666666;
+  --textsecondary: var(--primary);
+  --texttertiary: #9cdcff;
+}
+
+html.theme-dark {
+  --primary: #001b35;
+  --secondary: #f1c40f;
+  --bgprimary: #23517e;
+  --bgsecondary: #001b35;
+  --bgtertiary: #fff;
+  --bggridrow: #23517e;
+  --textprimary:#666666;
+  --textsecondary: #009df2;
+  --texttertiary: #fff;
+}
+
+html, body {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.system-logo {
+  width: 103.5px;
+  height: 24.5px;
+  position: absolute;
+  right: 80px;
+  top: 35px;
+  background-image: url("../img/intergrus.png");
+  background-size: 100% 100%;
+}
+
+li[b-ivqkdh21xt] {
+  background: var(--primary);
+}
+li[b-ivqkdh21xt] a {
+  padding-left: 5px;
+  color: #fff;
+  font-weight: 800;
+  font-family: "Zalando Sans", sans-serif !important;
+  padding-right: 5px;
+  text-transform: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+li[b-ivqkdh21xt] a i {
+  margin-right: 6px;
+}
+li[b-ivqkdh21xt].active {
+  background: var(--bgsecondary);
+}
+li[b-ivqkdh21xt].active a {
+  color: var(--textsecondary) !important;
+}
+
+main[b-5bjcynql35] {
+  height: 100%;
+  background: #006FC7;
+  background: linear-gradient(90deg, rgb(0, 111, 199) 0%, rgb(35, 44, 51) 100%);
+}
+
+[b-0pnj5rs0lo] .top-menu > button {
+  background: #fff;
+  border-radius: 80px;
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 30px;
+  vertical-align: top !important;
+  padding: 0px;
+  position: relative;
+  top: 15px;
+  right: 8px;
+  width: 50px;
+  height: 50px;
+}
+[b-0pnj5rs0lo] .top-menu > button span {
+  position: absolute;
+  top: -14px;
+  width: 100%;
+}
+
+#menu-page[b-0pnj5rs0lo] {
+  max-width: 95%;
+  margin: auto;
+}
+
+.tab-set.item-register-tabs li:first-child[b-ivqkdh21xt] {
+  margin-left: 0px;
+}
+
+.tab-set .nav-tabs-body[b-2toz9nxxxi] {
+  background: var(--bgprimary);
+  border: 0px solid #fff;
+  padding-top: 0px;
+}
+.tab-set .nav-tabs-body[b-2toz9nxxxi] li:first-child[b-ivqkdh21xt] {
+  margin-left: 0px;
+}
+
+.toolbar[b-662ex3megl] {
+  background: var(--bgsecondary);
+}
+
+.filter-select[b-rk0jepjqlr] {
+  background: var(--bgsecondary);
+}
+
+[b-662ex3megl] .toolbar-item {
+  margin-bottom: 10px;
+}
+[b-662ex3megl] .toolbar-item i {
+  display: none;
+}
+[b-662ex3megl] .toolbar-item.btn {
+  margin-top: 10px;
+  font-family: "Zalando Sans", sans-serif;
+  padding: 0px 10px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  font-weight: 400;
+  min-height: 30px;
+  height: 30px;
+}
+[b-662ex3megl] .toolbar-item.btn:hover {
+  background: var(--primary);
+  color: var(--texttertiary);
+}
+
+.btn.control[b-rlwqvyjs0e] {
+  margin-top: 10px;
+  font-family: "Zalando Sans", sans-serif;
+  padding: 0px 10px;
+  border: 1px solid var(--primary);
+  font-size: 14px;
+  background: #fff;
+  color: var(--primary);
+  border-color: var(--primary);
+  line-height: 0px;
+  font-weight: 400;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  padding-block-start: 0px;
+  padding-block-end: 0px;
+  min-height: 30px;
+  height: 30px;
+}
+.btn.control[b-rlwqvyjs0e]:before {
+  content: "";
+}
+
+.layout-select[b-kf9a7fuz6c],
+.filter-select[b-kf9a7fuz6c] {
+  background-color: var(--bgsecondary);
+}
+
+.k-splitbar {
+  background: var(--bgprimary);
+}
+
+[b-kf9a7fuz6c] .grid-detail-splitter .right-panel {
+  background: var(--bgprimary);
+  border-top: 50px solid white;
+  padding-top: 20px;
+}
+
+.k-grid-content {
+  background: var(--bggridrow);
+}
+
+.k-grid,
+.k-grid .k-grid-aria-root {
+  border-color: var(--bgsecondary);
+  background: var(--bgsecondary);
+  border: none;
+  font-family: "Zalando Sans", sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 800;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.k-grid .k-grid-header .k-table th {
+  background: var(--bgtertiary) !important;
+}
+
+.k-grid .k-grid-header-menu {
+  background: var(--texttertiary) !important;
+  color: var(--primary);
+  border-radius: 5px;
+}
+
+.k-checkbox {
+  background: var(--texttertiary);
+}
+
+.k-column-title {
+  color: var(--bgtertiary);
+  background: var(--bgtertiary);
+}
+
+.k-grid .k-grid-header-menu {
+  background: var(--bggridrow);
+}
+
+[b-hziul159v2] .left-panel, [b-hziul159v2] .right-panel {
+  background: var(--bgsecondary);
+}
+
+.k-grid .k-grid-header .k-table th {
+  background: var(--bggridrow);
+}
+
+.k-grid .k-table-row.k-table-row .k-table-td {
+  background: #f2fafe;
+  color: var(--textprimary);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.k-grid .k-table-row.k-table-alt-row .k-table-td {
+  background: var(--bgsecondary);
+  color: var(--textprimary);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.nothing-to-see[b-x7rpotrwpn] {
+  background: var(--bggridrow);
+}
+.nothing-to-see[b-x7rpotrwpn] p {
+  font-family: "Zalando Sans", sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: 800;
+  font-variant: normal;
+  text-transform: none;
+  padding: 20px;
+  color: var(--primary);
+}
+
+/*# sourceMappingURL=app.css.map */

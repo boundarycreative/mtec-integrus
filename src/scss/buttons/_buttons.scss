@@ -1,0 +1,24 @@
+// Register 
+//Nav Tabs
+li[b-ivqkdh21xt] {
+  background:$primary;
+  a{
+    padding-left: 5px;
+    color:#fff;   
+    font-weight:800;   
+    font-family: "Zalando Sans", sans-serif !important; 
+    padding-right:5px;
+    text-transform: none;
+    font-style: normal;
+ 
+    font-variant: normal;
+    text-transform: none;
+ 
+    -webkit-font-smoothing: antialiased;
+i{
+  margin-right:6px;
+}}
+  &.active {background:$bgsecondary;
+    a{color:$textsecondary!important;  }
+  }
+}
