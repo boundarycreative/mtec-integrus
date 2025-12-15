@@ -92,7 +92,7 @@ main[b-5bjcynql35] {
 }
 
 #menu-page[b-0pnj5rs0lo] {
-  max-width: 95%;
+  max-width: 99%;
   margin: auto;
 }
 
@@ -175,7 +175,7 @@ main[b-5bjcynql35] {
 
 [b-kf9a7fuz6c] .grid-detail-splitter .right-panel {
   background: var(--bgprimary);
-  border-top: 50px solid white;
+  border-top: 36px solid var(--bgprimary);
   padding-top: 20px;
 }
 
@@ -202,7 +202,7 @@ main[b-5bjcynql35] {
 
 .k-grid .k-grid-header-menu {
   background: var(--texttertiary) !important;
-  color: var(--primary);
+  color: var(--bggridrow);
   border-radius: 5px;
 }
 
@@ -211,7 +211,7 @@ main[b-5bjcynql35] {
 }
 
 .k-column-title {
-  color: var(--bgtertiary);
+  color: var(--bggridrow);
   background: var(--bgtertiary);
 }
 
@@ -232,6 +232,7 @@ main[b-5bjcynql35] {
   color: var(--textprimary);
   font-weight: 400;
   font-size: 12px;
+  text-align: left !important;
 }
 
 .k-grid .k-table-row.k-table-alt-row .k-table-td {

@@ -31,7 +31,7 @@
 
 #menu-page[b-0pnj5rs0lo] {
  
-  max-width: 95%;
+  max-width: 99%;
   margin: auto;
   
 }
@@ -117,7 +117,7 @@
 }
 .k-splitbar{  background:$bgprimary;}
 [b-kf9a7fuz6c] .grid-detail-splitter .right-panel{
-  background:$bgprimary;  border-top:50px solid #ffff;
+  background:$bgprimary;  border-top:36px solid $bgprimary;
   padding-top:20px;
 }
 
@@ -137,10 +137,10 @@ font-variant: normal;
 text-transform: none;}
  
  .k-grid .k-grid-header .k-table th{ background:$bgtertiary !important;}
- .k-grid .k-grid-header-menu{background:$texttertiary !important; color:$primary; border-radius:5px;}
+ .k-grid .k-grid-header-menu{background:$texttertiary !important; color:$bggridrow; border-radius:5px;}
  .k-checkbox {background:$texttertiary;}
  .k-column-title{
-   color:$bgtertiary;
+   color:$bggridrow;
    background:$bgtertiary;
  }
  .k-grid .k-grid-header-menu{
@@ -148,7 +148,7 @@ text-transform: none;}
  }
 [b-hziul159v2] .left-panel, [b-hziul159v2] .right-panel{background:$bgsecondary ;}
 .k-grid .k-grid-header .k-table th{background:$bggridrow ;}
-.k-grid .k-table-row.k-table-row{ .k-table-td{background:#f2fafe; color:$textprimary; font-weight: 400; font-size:12px;}}
+.k-grid .k-table-row.k-table-row{ .k-table-td{background:#f2fafe; color:$textprimary; font-weight: 400; font-size:12px; text-align:left !important;}}
 .k-grid .k-table-row.k-table-alt-row{ .k-table-td{background:$bgsecondary; color:$textprimary; font-weight: 400; font-size:12px;}}
 
 
