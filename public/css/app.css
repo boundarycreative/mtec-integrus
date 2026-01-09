@@ -308,6 +308,10 @@ div[b-ifnkuwwjij] {
   background: var(--bggridrow);
 }
 
+.k-table-td {
+  font-size: 14px !important;
+}
+
 .k-grid,
 .k-grid .k-grid-aria-root {
   border-color: var(--bgsecondary);
