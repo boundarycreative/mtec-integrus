@@ -1,12 +1,12 @@
 html,body {
-  font-family: "Zalando Sans", sans-serif;
+  font-family: "Zalando Sans", sans-serif !important;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-weight: 400 !important;
+  font-style: normal !important;
+ font: normal normal bold 16px/2 normal;
+ 
 }
-
+body{  font: normal 16px/2 !important;}
 
 
 .system-logo {

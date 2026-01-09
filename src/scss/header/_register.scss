@@ -1,169 +1,375 @@
- 
- 
+ /* ! GENERAL */
+
  main[b-5bjcynql35] {
- height: 100%;
- background: #006FC7;
- background: linear-gradient(90deg, rgba(0, 111, 199, 1) 0%, rgba(35, 44, 51, 1) 100%);
+   height: 100%;
+   background: #006FC7;
+   background: linear-gradient(90deg, rgba(0, 111, 199, 1) 0%, rgba(35, 44, 51, 1) 100%);
  }
+
+ .left-right-layout[b-hziul159v2] .k-splitter {
+   background: var(--bgprimary);
+   color:var(--textprimary);
+ }
+
+ .top-bottom-layout[b-w9dgidvchy] {
+   background: var(--bgprimary);
+ }
+
+ div[b-ifnkuwwjij] {
+   padding: 5px 0px 0px 0px !important;
+ }
+.list-view-container[b-oeky09t799] {  background: var(--bgprimary);}
+div.k-grid div.k-grid-aria-root{
+  flex-basis: 500px;
+}
+
+[b-0pnj5rs0lo] .nav-tabs-body {padding-inline: 0px;}
+
+ /* ! Top Navigation */
+ [b-0pnj5rs0lo] .top-menu>button {
+   background: #fff;
+   border-radius: 80px;
+   color: $primary;
+   font-weight: 800;
+   font-size: 30px;
+   vertical-align: top !important;
+   padding: 0px;
+   position: relative;
+   top: 15px;
+   right: 8px;
+   width: 50px;
+   height: 50px;
+
+   span {
+     position: absolute;
+     top: -14px;
+     width: 100%;
+   }
+ }
+
+ #menu-page[b-0pnj5rs0lo] {
+
+   max-width: 99%;
+   margin: auto;
+
+ }
+
+ .tab-set.item-register-tabs {
+   li:first-child[b-ivqkdh21xt] {
+     margin-left: 0px;
+   }
+ }
+
+
+ .tab-set .nav-tabs-body[b-2toz9nxxxi] {
+   background: $bgprimary;
+   border: 0px solid #fff;
+   padding-top: 0px;
+
+   li:first-child[b-ivqkdh21xt] {
+     margin-left: 0px;
+   }
+ }
+
+ .toolbar[b-662ex3megl] {
+   background: $bgsecondary;
+ }
+
+ /* ! Buttons and Dropdowns */
+ .filter-select[b-rk0jepjqlr] {
+   background: $bgsecondary;
+ }
+
+ [b-662ex3megl] .toolbar-item {
+   margin-bottom: 10px;
+
+   i {
+     display: none;
+   }
+
+   &.btn {
+     margin-top: 10px;
+     font-family: "Zalando Sans", sans-serif;
+     padding: 0px 10px;
+     font-size: 14px;
+     background: #fff;
+     color: $primary;
+
+     border: 1px solid $primary;
+     padding-block-start: 0px;
+     padding-block-end: 0px;
+     font-weight: 400;
+     min-height: 30px;
+     height: 30px;
+
+     &:hover {
+       background: $primary;
+       color: $texttertiary;
+     }
+   }
+   
+   &.configure{
+     /* layout */
  
- 
-// Top Navigation Btn
-[b-0pnj5rs0lo] .top-menu>button {
-  background: #fff;
-  border-radius: 80px;
-  color: $primary;
-  font-weight: 800;
-  font-size: 30px;
-  vertical-align: top !important;
-  padding: 0px;
-  position: relative;
-  top: 15px;
-  right: 8px;
-  width: 50px;
-  height: 50px;
-
-  span {
-    position: absolute;
-    top: -14px;
-    width: 100%;
-  }
-}
-
-#menu-page[b-0pnj5rs0lo] {
- 
-  max-width: 99%;
-  margin: auto;
-  
-}
-
-.tab-set.item-register-tabs{
-  li:first-child[b-ivqkdh21xt] {
-  margin-left: 0px;
-  }
-}
-
-
-.tab-set .nav-tabs-body[b-2toz9nxxxi] {
-  background: $bgprimary;
-  border: 0px solid #fff;
-  padding-top:0px;
-  
-  li:first-child[b-ivqkdh21xt] {
-    margin-left:0px;
-  }
-}
-
-.toolbar[b-662ex3megl] {
-  background: $bgsecondary;
-}
-.filter-select[b-rk0jepjqlr] {  background: $bgsecondary;}
-[b-662ex3megl] .toolbar-item {
-  margin-bottom:10px;
-  i {
-    display: none;
-  }
-
-  &.btn {
-    margin-top:10px;
-    font-family: "Zalando Sans", sans-serif;
-    padding: 0px 10px;
-    font-size: 14px;
-    background: #fff;
-    color: $primary;
- 
-    border:1px solid $primary;
-    padding-block-start: 0px;
-    padding-block-end: 0px;
- font-weight:400;
-    min-height:30px;
-    height:30px;
+     border: 0;
+     background: #eef8fd; /* button background */
     
-    &:hover{
-      background:$primary;
-      color:$texttertiary;
-    }
-  }
-}
-
-.btn.control[b-rlwqvyjs0e] {
-  margin-top:10px;
-  font-family: "Zalando Sans", sans-serif;
-  padding: 0px 10px;
-  border:1px solid $primary;
-  font-size: 14px;
-  background: #fff;
-  color: $primary;
-  border-color: $primary;
-  line-height:0px;
-  font-weight:400;
-  padding-block-start: 0px;
-  padding-block-end: 0px;
-  padding-block-start: 0px;
-  padding-block-end: 0px;
-  
-  min-height:30px;
-  height:30px;
-  &:before {
-    content: "";
-  }
-}
-
-.layout-select[b-kf9a7fuz6c],
-.filter-select[b-kf9a7fuz6c]{
-  background-color:$bgsecondary;
-}
-.layout-select[b-kf9a7fuz6c]{
-
-}
-.k-splitbar{  background:$bgprimary;}
-[b-kf9a7fuz6c] .grid-detail-splitter .right-panel{
-  background:$bgprimary;  border-top:36px solid $bgprimary;
-  padding-top:20px;
-}
-
-
-
-// KENDO table-layout: 
-
-.k-grid-content{
-  background: $bggridrow;
-}
-.k-grid,
-.k-grid .k-grid-aria-root{border-color:  $bgsecondary  ; background:$bgsecondary ; border:none;  font-family: "Zalando Sans", sans-serif;
-    text-transform: none;
-font-style: normal;
-font-weight: 800;
-font-variant: normal;
-text-transform: none;}
+     /* set the icon color */
+     color: #3b82f6;
+   
  
- .k-grid .k-grid-header .k-table th{ background:$bgtertiary !important;}
- .k-grid .k-grid-header-menu{background:$texttertiary !important; color:$bggridrow; border-radius:5px;}
- .k-checkbox {background:$texttertiary;}
- .k-column-title{
-   color:$bggridrow;
-   background:$bgtertiary;
+ 
+   }
  }
- .k-grid .k-grid-header-menu{
-   background:$bggridrow ;
+
+.btn.configure {
+   display: inline-flex;
+   align-items: left;
+   gap: 16px;            /* space between icon and text */
+   padding: 7px 14px;
+   background: #eef8fd; /* button background */
+   border:0px;
+    /* set the icon color */
+    color: #3b82f6;   /* icon & text color when using currentColor */
+   font-size: 14px;
  }
-[b-hziul159v2] .left-panel, [b-hziul159v2] .right-panel{background:$bgsecondary ;}
-.k-grid .k-grid-header .k-table th{background:$bggridrow ;}
-.k-grid .k-table-row.k-table-row{ .k-table-td{background:#f2fafe; color:$textprimary; font-weight: 400; font-size:12px; text-align:left !important;}}
-.k-grid .k-table-row.k-table-alt-row{ .k-table-td{background:$bgsecondary; color:$textprimary; font-weight: 400; font-size:12px;}}
+ 
+ 
+ .btn.configure i.fa-solid {     /* target svelte-fa output (svg.icon) or <i> */
+   width: 16px;        /* svg size for svelte-fa or leave to font-size for <i> */
+   height: 16px;
+   font-size: 16px;    /* for <i> icons */
+   display: inline-block;
+   line-height: 1;
+ }
+
+ .btn.control[b-rlwqvyjs0e] {
+   margin-top: 10px;
+   font-family: "Zalando Sans", sans-serif;
+   padding: 0px 10px;
+   border: 1px solid $primary;
+   font-size: 14px;
+   background: #fff;
+   color: $primary;
+   border-color: $primary;
+   line-height: 0px;
+   font-weight: 400;
+   padding-block-start: 0px;
+   padding-block-end: 0px;
+   padding-block-start: 0px;
+   padding-block-end: 0px;
+
+   min-height: 30px;
+   height: 30px;
+
+   &:before {
+     content: "";
+   }
+ }
+
+ .layout-select[b-kf9a7fuz6c],
+ .filter-select[b-kf9a7fuz6c] {
+   background-color: $bgsecondary;
+ }
+
+ .layout-select[b-kf9a7fuz6c] {}
+
+ .k-splitbar {
+   background: $bgprimary;
+ }
+
+ [b-kf9a7fuz6c] .grid-detail-splitter .right-panel {
+   background: $bgprimary;
+   // border-top: 36px solid $bgprimary;
+   // padding-top: 20px;
+ }
+
+ // Loading
+ div[b-ifnkuwwjij] {
+   padding: 5px 0px;
+   //background:pink;  
+
+ }
 
 
-// INFO Panel
-
-.nothing-to-see[b-x7rpotrwpn] {
-  background:$bggridrow ;
-  p{
-    font-family: "Zalando Sans", sans-serif;
-        text-transform: none;
-    font-style: normal;
-    font-weight: 800;
-    font-variant: normal;
-    text-transform: none;
-    padding:20px;
-    color:$primary;
+ // Pill Btn
+  .pill-btn {
+    // display: inline-block;
+   // position: absolute;
   }
-}
+ // DROPDOWN
+ .pill-select {
+   display: inline-block;
+   position: relative;
+   color: #3b82f6;
+    /* blue text */
+    margin-top:10px;
+ 
+ }
+
+ /* The select itself */
+ .filter-select[b-rk0jepjqlr] select,
+ .pill-select select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+
+   overflow:hidden;
+   color: #3b82f6;
+   /* blue text */
+   background: #eef8fd;
+   /* light blue pill bg */
+   border: none;
+   border-radius: 5px;
+   font-size: 14px;
+   padding: 7px 52px 7px 14px;
+   max-width: 150px;
+ 
+   /* right padding leaves room for chevron */
+   cursor: pointer;
+
+   //box-shadow: 0 1px 0 rgba(0,0,0,.03);
+   outline: none;
+ }
+
+ /* Hover/focus states */
+ .pill-select select:hover {
+   background: #e6f1ff;
+ }
+
+ .pill-select select:focus {
+   border-color: rgba(59, 130, 246, .35);
+   box-shadow: 0 0 0 4px rgba(59, 130, 246, .15);
+ }
+
+ /* Custom chevron */
+ .pill-select::after {
+   content: "";
+   position: absolute;
+   right: 12px;
+   top: 15px;
+   width: 13px;
+   height: 9px;
+   transform: translateY(-50%);
+   pointer-events: none;
+ 
+   /* Inline SVG chevron so it matches the text color */
+   background: no-repeat center / contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 12'%3E%3Cpath fill='%233b82f6' d='M10 12a1.5 1.5 0 0 1-1.06-.44L.88 3.5A1.5 1.5 0 1 1 3 1.38l7 7 7-7A1.5 1.5 0 1 1 19.12 3.5l-8.06 8.06A1.5 1.5 0 0 1 10 12z'/%3E%3C/svg%3E");
+ }
+
+ /* Optional: hide the old arrow in IE/Edge legacy */
+ .pill-select select::-ms-expand {
+   display: none;
+ }
+
+
+
+ /* ! Kendo Table/Grid  */
+
+ .k-grid-content {
+   background: $bggridrow;
+ }
+
+ .k-grid,
+ .k-grid .k-grid-aria-root {
+   border-color: $bgsecondary ;
+   background: $bgsecondary ;
+   border: none;
+   font-family: "Zalando Sans", sans-serif;
+   text-transform: none;
+   font-style: normal;
+   font-weight: 800;
+   font-variant: normal;
+   text-transform: none;
+ }
+ .k-grid  {
+   margin:10px;
+ }
+
+ .k-grid .k-grid-header .k-table th {
+   background: $bgtertiary !important;
+ }
+
+ .k-grid .k-grid-header-menu {
+   background: $texttertiary !important;
+   color: $primary;
+   border-radius: 5px;
+ }
+
+ .k-checkbox {
+   background: $texttertiary;
+ }
+
+ .k-column-title {
+   color: $bggridrow;
+   background: $bgtertiary;
+ }
+
+ .k-grid .k-grid-header-menu {
+   background: $bggridrow ;
+ }
+
+ [b-hziul159v2] .left-panel,
+ [b-hziul159v2] .right-panel {
+   background: $bgsecondary ;
+ }
+
+ .k-grid .k-grid-header .k-table th {
+   background: $bggridrow ;
+ }
+
+ .k-grid .k-table-row.k-table-row {
+   .k-table-td {
+     background: #f2fafe;
+     color: $textprimary;
+     font-weight: 400;
+     font-size: 12px;
+     text-align: left !important;
+   }
+ }
+
+ .k-grid .k-table-row.k-table-alt-row {
+   .k-table-td {
+     background: $bgsecondary;
+     color: $textprimary;
+     font-weight: 400;
+     font-size: 12px;
+   }
+ }
+
+ .k-pager {
+   background: $bgtertiary;
+   border: none;
+ }
+
+ .k-pager .k-dropdownlist {
+   background: $texttertiary !important;
+   color: $primary;
+ }
+
+ // INFO Panel
+
+ /* ! Misc */
+ .nothing-to-see[b-x7rpotrwpn] {
+   background: $bggridrow ;
+
+   p {
+     font-family: "Zalando Sans", sans-serif;
+     text-transform: none;
+     font-style: normal;
+     font-weight: 800;
+     font-variant: normal;
+     text-transform: none;
+     padding: 20px;
+     color: $primary;
+   }
+ }
+ 
+ // Load container
+div[b-ifnkuwwjij] .loader-container .hidden span,
+div[b-ifnkuwwjij].loader-container .hidden span{
+ color:$textprimary;
+   font-size: 14px;
+   padding:10px 10px 10px 10px !important;
+   font-family: "Zalando Sans", sans-serif;
+ }
